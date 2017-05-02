@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/columbooo/MyLibrary'
   s.license          = 'MIT'
   s.author           = { 'Laszlo Ilonka' => 'ilonka.lazlo@gmail.com' }
-  s.source           = { :git => 'https://github.com/columbooo/MyLibrary.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/columbooo/MyLibrary.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
